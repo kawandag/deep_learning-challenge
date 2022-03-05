@@ -33,7 +33,11 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
    * Performance Results (1)
      * ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
 
-    * What steps did you take to try and increase model performance?
+   * Optimized the model to obtain predictive accuracy higher than 75%
+      * Only dropped "EIN" column
+      * ![Screenshot_predict](https://user-images.githubusercontent.com/90159408/156864945-175d73ff-aa1c-462f-a21f-33ee84095be1.png)
+
+
 
 
 2. **Results**:
