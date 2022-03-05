@@ -1,5 +1,6 @@
-# Charity Funding Predictor Report
-   Using Neutr
+# Charity Funding Predictor
+   **Neural Network Model**
+ 
 ![charity-donation-with-sphere-coins_24877-54470](https://user-images.githubusercontent.com/90159408/156863795-abbdd921-692e-4720-a960-ea88a1978f94.jpg)
 
 **Background**
@@ -41,7 +42,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
      * ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
 
    *Optimized the model to obtain predictive accuracy higher than 75%
-      * Only dropped "EIN" column, added more hidden layers and neurons with epochs to the training regimen to receive 77% accuracy
+      * Dropped "EIN", "SPECIAL column, added more hidden layers and neurons with epochs to the training regimen to receive 79% accuracy
       
        * ![Screenshot_layers](https://user-images.githubusercontent.com/90159408/156865263-a7e00064-b8bf-45dd-a715-891fdf433372.png)
 
@@ -55,7 +56,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 
 **Summary** 
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
 
 
 © 2021  Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.	
