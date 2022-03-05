@@ -22,8 +22,10 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 **Data Preprocessing
    
    * Used "IS_SUCCESSFUL as the target for model
+   
    * All other columns that were not considered target variables can be used as features except the identification variables
       * CLASSIFICATION AND APPLICATION_TYPE were used for this model
+      
    * Removed identification columns ("EIN" and "NAME") from input   
  
  ![Screenshot 2022-03-04 211255](https://user-images.githubusercontent.com/90159408/156863789-c1fe7455-ec19-4a4e-a7c3-957e135cf926.png)
@@ -54,7 +56,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
    
    ![accuracy2](https://user-images.githubusercontent.com/90159408/156865123-59ce926f-28bb-46ed-a73a-27dbfb8bc16e.png)
             
-    *Random Forest Results
+   Random Forest Results
     
    ![Screenshot_predict](https://user-images.githubusercontent.com/90159408/156865194-bc541578-ba7b-4a4d-bf38-6d9b949ef70f.png)
 
