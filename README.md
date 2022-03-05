@@ -62,7 +62,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 
 
 **Summary** 
-
+Overall results shows the by adding a third layer and using "sigmoid" for second and third layers help reached results to be able to classify 79% of the time. In saying this, it can be determined if the name of the application appears more than five times, has an application type of T3, T4, T6, T5, T19 and a classification of more than 1000, then there's a good (79%) chance of successful funding. 
 
 
 
