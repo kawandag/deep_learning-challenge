@@ -33,7 +33,8 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
       *  Train and scale model
     
    **Defined the model**
-      ![Screenshot_model](https://user-images.githubusercontent.com/90159408/156864710-f539dbf9-9a59-44b4-9c44-9f581e9146d3.png)R
+   
+     * ![Screenshot_model](https://user-images.githubusercontent.com/90159408/156864710-f539dbf9-9a59-44b4-9c44-9f581e9146d3.png)R
       
    **Results**
       
@@ -42,12 +43,13 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
      * ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
 
    *Optimized the model to obtain predictive accuracy higher than 75%
-      * Dropped "EIN", "SPECIAL column, added more hidden layers and neurons with epochs to the training regimen to receive 79% accuracy
+      * Dropped "EIN", "SPECIAL column, added more hidden layers and neurons with epochs to the training regimen to receive 79% accuracy*
       
        * ![Screenshot_layers](https://user-images.githubusercontent.com/90159408/156865263-a7e00064-b8bf-45dd-a715-891fdf433372.png)
 
       
-   *Performance Results(2)
+   *Performance Results(2)*
+   
       * ![accuracy2](https://user-images.githubusercontent.com/90159408/156865123-59ce926f-28bb-46ed-a73a-27dbfb8bc16e.png)
             
     *Random Forest Results
