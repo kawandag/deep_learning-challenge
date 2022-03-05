@@ -1,4 +1,4 @@
-# Charity Funding Predictor
+# Charity Funding Predictor Report
    **Neural Network Model**
  
 ![charity-donation-with-sphere-coins_24877-54470](https://user-images.githubusercontent.com/90159408/156863795-abbdd921-692e-4720-a960-ea88a1978f94.jpg)
