@@ -31,7 +31,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
    * Defined the model
       ![Screenshot_model](https://user-images.githubusercontent.com/90159408/156864710-f539dbf9-9a59-44b4-9c44-9f581e9146d3.png)
    * Performance Results (1)
-      ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
+     * ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
 
     * What steps did you take to try and increase model performance?
 
