@@ -34,9 +34,10 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
      * ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
 
    * Optimized the model to obtain predictive accuracy higher than 75%
-      * Only dropped "EIN" column
+      * Only dropped "EIN" column, added more hidden layers and fewer epochs
       * ![Screenshot_predict](https://user-images.githubusercontent.com/90159408/156864945-175d73ff-aa1c-462f-a21f-33ee84095be1.png)
-
+      
+      * ![accuracy2](https://user-images.githubusercontent.com/90159408/156865123-59ce926f-28bb-46ed-a73a-27dbfb8bc16e.png)
 
 
 
