@@ -19,7 +19,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
-**Data Preprocessing
+**Data Preprocessing**
    
    * Used "IS_SUCCESSFUL as the target for model
    
@@ -40,7 +40,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
    
    ![Screenshot_model](https://user-images.githubusercontent.com/90159408/156864710-f539dbf9-9a59-44b4-9c44-9f581e9146d3.png)R
       
-   **Results**
+**Results**
       
    *Performance Results (1)*
          
