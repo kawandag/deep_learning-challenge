@@ -1,4 +1,5 @@
 # Charity Funding Predictor -- Neural Network Model Report
+![charity-donation-with-sphere-coins_24877-54470](https://user-images.githubusercontent.com/90159408/156863795-abbdd921-692e-4720-a960-ea88a1978f94.jpg)
 
 ## Background
 
@@ -18,9 +19,11 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 * **IS_SUCCESSFUL**—Was the money used effectively
 
 
-## Data Processing
+## Data Preprocessing
    For the data preprocessing portion, the target data is the outcome in which the neural network will try to match to the predicted data. In this dataset, the target variable used was "IS_SUCCESSFUL" as it is the column that defines the end goal. All other columns except "EIN" and "NAME" will be considered the feature variables. The identification columns ("EIN", "NAME) will be dropped from the dataset as they are non-beneficial to the end goal.
-  
+ 
+ ![Screenshot 2022-03-04 211255](https://user-images.githubusercontent.com/90159408/156863789-c1fe7455-ec19-4a4e-a7c3-957e135cf926.png)
+
 ## Compile, Train, and Evaluate the Model
 
   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
@@ -33,20 +36,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 
 
 
-### Step 1: Preprocess the data
 
-Using your knowledge of Pandas and the Scikit-Learn’s `StandardScaler()`, you’ll need to preprocess the dataset in order to compile, train, and evaluate the neural network model later in Step 2
-
-Using the information we have provided in the starter code, follow the instructions to complete the preprocessing steps.
-
-1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
-  * What variable(s) are considered the target(s) for your model?
-  * What variable(s) are considered the feature(s) for your model?
-2. Drop the `EIN` and `NAME` columns.
-3. Determine the number of unique values for each column.
-4. For those columns that have more than 10 unique values, determine the number of data points for each unique value.
-6. Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, `Other`, and then check if the binning was successful.
-7. Use `pd.get_dummies()` to encode categorical variables
 
 ### Step 2: Compile, Train, and Evaluate the Model
 
