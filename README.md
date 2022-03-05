@@ -1,10 +1,9 @@
-# Deep Learning Homework: Charity Funding Predictor
+# Charity Funding Predictor -- Neural Network Model Report
 
 ## Background
 
-The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. Using machine learning and neural networks, the features provided dataset will be used to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. Below are the following columns for the Alphabet Soup dataset:
 
-From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
 
 * **EIN** and **NAME**—Identification columns
 * **APPLICATION_TYPE**—Alphabet Soup application type
@@ -18,7 +17,21 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
-## Instructions
+
+## Data Processing
+   For the data preprocessing portion, the target data is the outcome in which the neural network will try to match to the predicted data. In this dataset, the target variable used was "IS_SUCCESSFUL" as it is the column that defines the end goal. All other columns except "EIN" and "NAME" will be considered the feature variables. The identification columns ("EIN", "NAME) will be dropped from the dataset as they are non-beneficial to the end goal.
+  
+## Compile, Train, and Evaluate the Model
+
+  * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    * Were you able to achieve the target model performance?
+    * What steps did you take to try and increase model performance?
+
+
+2. **Results**:
+
+
+
 
 ### Step 1: Preprocess the data
 
@@ -73,24 +86,7 @@ Optimize your model in order to achieve a target predictive accuracy higher than
 4. Design a neural network model, taking into account any modifications that will optimize the model to achieve higher than 75% accuracy.
 5. Save and export your results to an HDF5 file, and name it `AlphabetSoupCharity_Optimization.h5`.
 
-### Step 4: Write a Report on the Neural Network Model
 
-For this part of the Challenge, you’ll write a report on the performance of the deep learning model you created for AlphabetSoup.
-
-The report should contain the following:
-
-1. **Overview** of the analysis: Explain the purpose of this analysis.
-
-2. **Results**: Using bulleted lists and images to support your answers, address the following questions.
-
-  * Data Preprocessing
-    * What variable(s) are considered the target(s) for your model?
-    * What variable(s) are considered to be the features for your model?
-    * What variable(s) are neither targets nor features, and should be removed from the input data?
-  * Compiling, Training, and Evaluating the Model
-    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    * Were you able to achieve the target model performance?
-    * What steps did you take to try and increase model performance?
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
