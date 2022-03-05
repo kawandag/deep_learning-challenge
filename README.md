@@ -5,7 +5,6 @@
 
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. Using machine learning and neural networks, the features provided dataset will be used to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. Below are the following columns for the Alphabet Soup dataset:
 
-
 * **EIN** and **NAME**—Identification columns
 * **APPLICATION_TYPE**—Alphabet Soup application type
 * **AFFILIATION**—Affiliated sector of industry
@@ -18,14 +17,19 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
-
 ## Data Preprocessing
-   For the data preprocessing portion, the target data is the outcome in which the neural network will try to match to the predicted data. In this dataset, the target variable used was "IS_SUCCESSFUL" as it is the column that defines the end goal. All other columns except "EIN" and "NAME" will be considered the feature variables. The identification columns ("EIN", "NAME) will be dropped from the dataset as they are non-beneficial to the end goal.
+   
+   * Used "IS_SUCCESSFUL as the target for model
+   * All other columns that were not considered target variables can be used as features except the identification variables
+      * CLASSIFICATION AND APPLICATION_TYPE were used for this model
+   * Removed identification columns ("EIN" and "NAME") from input   
  
  ![Screenshot 2022-03-04 211255](https://user-images.githubusercontent.com/90159408/156863789-c1fe7455-ec19-4a4e-a7c3-957e135cf926.png)
 
 ## Compile, Train, and Evaluate the Model
-
+   * Completed StandardScaler
+   * Defined the model
+      
   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
     * Were you able to achieve the target model performance?
     * What steps did you take to try and increase model performance?
@@ -37,21 +41,6 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 
 
 
-
-### Step 2: Compile, Train, and Evaluate the Model
-
-Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
-
-1. Continue using the jupter notebook where you’ve already performed the preprocessing steps from Step 1.
-2. Create a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras.
-3. Create the first hidden layer and choose an appropriate activation function.
-4. If necessary, add a second hidden layer with an appropriate activation function.
-5. Create an output layer with an appropriate activation function.
-6. Check the structure of the model.
-7. Compile and train the model.
-8. Create a callback that saves the model's weights every 5 epochs.
-9. Evaluate the model using the test data to determine the loss and accuracy.
-10. Save and export your results to an HDF5 file, and name it `AlphabetSoupCharity.h5`.
 
 ### Step 3: Optimize the Model
 
