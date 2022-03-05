@@ -1,7 +1,8 @@
-# Charity Funding Predictor -- Neural Network Model Report
+# Charity Funding Predictor Report
+   Using Neutr
 ![charity-donation-with-sphere-coins_24877-54470](https://user-images.githubusercontent.com/90159408/156863795-abbdd921-692e-4720-a960-ea88a1978f94.jpg)
 
-## Background
+**Background**
 
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. Using machine learning and neural networks, the features provided dataset will be used to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. Below are the following columns for the Alphabet Soup dataset:
 
@@ -17,7 +18,7 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
-## Data Preprocessing
+**Data Preprocessing
    
    * Used "IS_SUCCESSFUL as the target for model
    * All other columns that were not considered target variables can be used as features except the identification variables
@@ -26,22 +27,29 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
  
  ![Screenshot 2022-03-04 211255](https://user-images.githubusercontent.com/90159408/156863789-c1fe7455-ec19-4a4e-a7c3-957e135cf926.png)
 
-## Compile, Train, and Evaluate the Model
-   * Completed StandardScaler
-   * Defined the model
-      ![Screenshot_model](https://user-images.githubusercontent.com/90159408/156864710-f539dbf9-9a59-44b4-9c44-9f581e9146d3.png)
-   * Performance Results (1)
+**Compile, Train, and Evaluate the Model
+   *StandardScaler**
+      *  Train and scale model
+    
+   **Defined the model**
+      ![Screenshot_model](https://user-images.githubusercontent.com/90159408/156864710-f539dbf9-9a59-44b4-9c44-9f581e9146d3.png)R
+      
+   **Results**
+      
+   *Performance Results (1)*
+         
      * ![Screenshot_accuracy](https://user-images.githubusercontent.com/90159408/156864730-42ab05b9-4673-489f-bb3b-748f51da06fe.png)
 
-   * Optimized the model to obtain predictive accuracy higher than 75%
-      * Only dropped "EIN" column, added more hidden layers and fewer epochs to the training regimen to receive 77% accuracy
+   *Optimized the model to obtain predictive accuracy higher than 75%
+      * Only dropped "EIN" column, added more hidden layers and neurons with epochs to the training regimen to receive 77% accuracy
       
        * ![Screenshot_layers](https://user-images.githubusercontent.com/90159408/156865263-a7e00064-b8bf-45dd-a715-891fdf433372.png)
 
       
-      * Performance Results(2)
-            * ![accuracy2](https://user-images.githubusercontent.com/90159408/156865123-59ce926f-28bb-46ed-a73a-27dbfb8bc16e.png)
-    * Random Forest Results
+   *Performance Results(2)
+      * ![accuracy2](https://user-images.githubusercontent.com/90159408/156865123-59ce926f-28bb-46ed-a73a-27dbfb8bc16e.png)
+            
+    *Random Forest Results
             * ![Screenshot_predict](https://user-images.githubusercontent.com/90159408/156865194-bc541578-ba7b-4a4d-bf38-6d9b949ef70f.png)
 
 
